@@ -25,6 +25,8 @@ trait HasDataType {
 
   setDefault(dataType -> DataTypes.NullType)
 
+  /** @group getParam
+    */
   final def getDataType: DataType = $(dataType)
 
 }
